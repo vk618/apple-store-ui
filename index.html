@@ -11,5 +11,47 @@
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
     <title>Apple - MacBook Pro</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img
+          src="./images/Apple_logo_grey.png"
+          alt="apple logo in grey"
+          class="header__logo__image"
+        />
+        <p class="header__logo__text">Apple</p>
+      </div>
+
+      <nav class="nav">
+        <a href="#store" class="nav_link">Store</a>
+        <a href="#accessories" class="nav_link">Accessories</a>
+        <a href="#blog" class="nav_link">Blog</a>
+        <a href="support" class="nav_link">Support</a>
+      </nav>
+
+      <div class="header__right-column">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="cart-icon-wrapper">
+          <a href="#basketDropdown" class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="cart-count">1</span>
+          </a>
+          <div id="basketDropdown" class="basket-dropdown">
+            <!-- styling for the basket itself -->
+            <div class="basket-content">
+              <a href="#" class="close">&times;</a>
+              <h2 class="basket-title">In Your Basket</h2>
+              <div class="basket-item">
+                <img src="./images/mbp.png" alt="MacBook Pro 2026" />
+                <div class="basket-item-details">
+                  <h3>MacBook Pro 2026</h3>
+                  <p>Price: $1999</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>

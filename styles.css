@@ -77,3 +77,58 @@ html {
   padding-top: 0.5rem;
   gap: 1rem;
 }
+
+@media screen and (min-width: 1200px) {
+  .header__left-column {
+    position: initial;
+  }
+}
+
+.header__right-column i {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.header__right-column i:hover {
+  cursor: pointer;
+}
+
+/* Cart Icon */
+.cart-icon {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cart-count {
+  position: absolute;
+  top: -10px;
+  background: #5120d2;
+  color: white;
+  border-radius: 50%;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+}
+
+.cart-count:hover {
+  background: #959595;
+  cursor: pointer;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  gap: 2rem;
+  padding-top: 0.25rem;
+}
+
+.na__link {
+  color: #bbbbbb;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: rgba(127, green, blue, alpha);
+}

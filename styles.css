@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* General */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, rgb(33, 33, 33) 0%, rgb(0, 0, 0) 100%);
+  font-family: "Open Sans", sans-serif;
+  color: #bbbbbb;
+  scroll-behavior: smooth;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: auto;
+  max-width: 1200px;
+  color: #bbbbbb;
+}
+
+.header__left-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 460px) {
+  .header__left-column {
+    padding-right: 5rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .header__left-column {
+    padding-right: 7rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__left-column {
+    gap: 7rem;
+    justify-content: right;
+    padding-right: 10rem;
+  }
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo__image {
+  width: 25px;
+  height: 30px;
+}
+
+.header__logo__text {
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-left: 0.5rem;
+  padding-top: 0.25rem;
+}
+
+.header__right-column {
+  display: flex;
+  position: absolute;
+  right: 2rem;
+  align-items: center;
+  padding-top: 0.5rem;
+  gap: 1rem;
+}
